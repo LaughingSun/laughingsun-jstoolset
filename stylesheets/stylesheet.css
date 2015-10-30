@@ -534,7 +534,10 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../images/github-button-202x80y.png) 0 0 no-repeat;
+}
+header a.button:hover {
+  background: transparent url(../images/github-button-202x80y-hover.png) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
