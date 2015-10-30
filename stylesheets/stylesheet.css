@@ -556,7 +556,7 @@ aside.side-by-side a.button {
     background: transparent url(../images/download-button-halfsize-96x78y.png) 0 0 no-repeat;
     box-sizing: border-box;
     padding: 12px 0 0 8px;
-    margin: 0px;
+    margin: 0 0 32px 0px;
 }
 aside.side-by-side a.button:hover {
   background: transparent url(../images/download-button-halfsize-96x78y-hover.png) 0 0 no-repeat;
