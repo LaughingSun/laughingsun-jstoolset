@@ -528,7 +528,7 @@ a.button {
 }
 a.button small {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
 }
 header a.button {
   position: absolute;
@@ -548,15 +548,22 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
-
 aside.side-by-side a.button {
-  display: inline-block;
-  width: 64px;
-  font-size: 18px;
-  background: transparent url(../images/download-button-halfsize-96x78y.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 96px;
+    height: 78px;
+    font-size: 17px;
+    background: transparent url(../images/download-button-halfsize-96x78y.png) 0 0 no-repeat;
+    box-sizing: border-box;
+    padding: 12px 0 0 8px;
+    margin: 0px;
 }
-aside.side-by-side a.button :hover {
+aside.side-by-side a.button:hover {
   background: transparent url(../images/download-button-halfsize-96x78y-hover.png) 0 0 no-repeat;
+}
+
+aside.side-by-side a.button>small {
+  margin-bottom: 22px;
 }
 
 code, pre {
