@@ -3,7 +3,7 @@ a javascript/ecmascript set of common required tools and APIs, built for cross p
 
 ##tools
 
-+xhrloader-factory - an async xhr loader with caching, factory and plugin features
++ xhrloader-factory - an async xhr loader with caching, factory and plugin features
 
 ##APIs
 
