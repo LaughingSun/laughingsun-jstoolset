@@ -1,8 +1,7 @@
 # xhrloader-factory
 a javascript/ecmascript xhrloader with caching. plugin and factory features, built for speed first and flexibility second.
 
-Installation Summary
-====================
+##Installation Summary
 
 Node:
 
@@ -18,8 +17,7 @@ wget:
     
 
 
-Initialization Summary
-======================
+##Initialization Summary
 
 for Node:
 
@@ -36,8 +34,7 @@ for Browser
 
   <script src="xhrloader-factory.js"></script>
   
-Usage Summary
-=============
+##Usage Summary
 
 loader as XHRLoader:
   + loader as function: loader(path:{string!}, callback:{function!}, conf:{object?}):loader
