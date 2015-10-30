@@ -548,6 +548,17 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
+
+aside.side-by-side a.button {
+  display: inline-block;
+  width: 64px;
+  font-size: 18px;
+  background: transparent url(../images/download-button-halfsize-96x78y.png) 0 0 no-repeat;
+}
+aside.side-by-side a.button :hover {
+  background: transparent url(../images/download-button-halfsize-96x78y-hover.png) 0 0 no-repeat;
+}
+
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
